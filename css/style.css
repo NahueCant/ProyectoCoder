@@ -1,0 +1,209 @@
+body {
+  background-color: #facbd0;
+  margin: 0px; }
+  body nav ul li {
+    display: inline;
+    text-decoration: underline; }
+    body nav ul li:hover {
+      font-weight: bold; }
+  body h1 {
+    font-size: 32px;
+    font-weight: bold; }
+  body p {
+    font-size: 18px; }
+  body form {
+    width: fit-content; }
+  body a {
+    text-decoration: none;
+    color: black; }
+    body a:hover {
+      color: black; }
+  body section {
+    margin: 5px 100px; }
+  body textarea {
+    margin: auto;
+    width: 380px;
+    height: 300px; }
+  body footer {
+    margin-bottom: 0px;
+    height: 225px; }
+    body footer p {
+      margin: 0px 40px;
+      margin-top: 10px; }
+
+.font {
+  font-family: 'Kaushan Script', cursive; }
+
+.h2 {
+  font-size: 28px;
+  font-weight: bold; }
+
+.h3 {
+  font-size: 22px;
+  font-weight: bold; }
+
+.h4 {
+  font-size: 20px;
+  font-weight: bold; }
+
+.sub {
+  font-size: 20px; }
+
+.subrayado {
+  text-decoration: underline; }
+
+.negrita {
+  font-weight: bold; }
+
+.margDer {
+  margin-left: 5px; }
+
+.nav-link {
+  text-decoration: none;
+  color: black; }
+
+.cf1 {
+  background-color: #e6b3b8; }
+
+.cf2 {
+  background-color: #dd979e; }
+
+.centrado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.izq {
+  display: block;
+  margin-left: 0px; }
+
+.der {
+  display: block;
+  margin-right: 0px; }
+
+.inline {
+  display: inline; }
+
+.mid {
+  text-align: center; }
+
+.imgDer {
+  float: right;
+  margin: 4px; }
+
+.imgIzq {
+  float: left;
+  margin: 4px; }
+
+.padLeft {
+  padding-left: 2vw; }
+
+.box {
+  width: 27rem;
+  background-color: white;
+  padding: 105px 165px;
+  border: 1px solid black; }
+
+.commentSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.car {
+  width: 670px;
+  height: 500px; }
+
+.noTMargin {
+  margin-top: 0px; }
+
+.hrDelicias {
+  width: 1100px; }
+
+.hrPacks {
+  width: 800px; }
+
+.seccUno {
+  height: 300px; }
+
+.seccDos {
+  height: 375px; }
+
+.txt1 {
+  width: 1000px; }
+
+.txt2 {
+  width: 1000px;
+  margin-left: 100px; }
+
+.boxtxt {
+  overflow: auto; }
+
+.img1 {
+  float: right; }
+
+.map1 {
+  float: left; }
+
+.commentPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.login {
+  background-color: #e6b3b8; }
+
+.texthere {
+  background-color: #e6b3b8;
+  width: 400px; }
+
+.div {
+  font-size: 18px;
+  display: inline-block; }
+
+.noMargin {
+  margin: 0px;
+  padding: 0px; }
+
+.blank {
+  height: 8rem; }
+
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .commentSection {
+    display: grid;
+    grid-template-areas: "box1 box2" "box3 box4";
+    grid-template-columns: 21rem 21rem;
+    grid-template-rows: auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; }
+  .b1 {
+    grid-area: box1; }
+  .b2 {
+    grid-area: box2; }
+  .b3 {
+    grid-area: box3; }
+  .b4 {
+    grid-area: box4; }
+  .box {
+    width: 22rem; } }
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+    width: 100vw; }
+  .commentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+  .box {
+    margin-top: 4px;
+    margin-bottom: 4px; }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .car {
+    width: 100%;
+    height: auto; }
+  .blank {
+    height: 3rem; } }

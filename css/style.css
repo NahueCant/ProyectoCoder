@@ -184,9 +184,24 @@ body {
   .b4 {
     grid-area: box4; }
   .box {
-    width: 22rem; } }
+    width: 22rem; }
+  .seccUno {
+    margin: 4vw; }
+  .txt1 {
+    width: 42vw; }
+  .img1 {
+    width: 50vw; }
+  .seccDos {
+    margin: 3vw; }
+  .map1 {
+    width: 50vw; }
+  .txt2 {
+    width: 42vw;
+    margin-left: 1vw; }
+  iframe {
+    width: 50vw; } }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 766px) {
   body {
     height: 100vh;
     width: 100vw; }
@@ -194,9 +209,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; }
+    padding-left: 4vw;
+    padding-right: 4vw; }
   .box {
+    width: 92vw;
     margin-top: 4px;
     margin-bottom: 4px; }
   .container {
@@ -206,4 +222,21 @@ body {
     width: 100%;
     height: auto; }
   .blank {
-    height: 3rem; } }
+    height: 3rem; }
+  .seccUno {
+    margin: 2vw;
+    height: 29rem; }
+  .txt1 {
+    width: 96vw; }
+  .img1 {
+    width: 27rem; }
+  .seccDos {
+    margin: 2vw;
+    height: 33rem; }
+  .map1 {
+    width: 96vw; }
+  .txt2 {
+    width: 96vw;
+    margin-left: 1vw; }
+  iframe {
+    width: 96vw; } }

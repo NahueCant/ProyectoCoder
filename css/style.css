@@ -199,7 +199,11 @@ body {
     width: 42vw;
     margin-left: 1vw; }
   iframe {
-    width: 50vw; } }
+    width: 50vw; }
+  body section {
+    margin: 2vw; }
+  .hrDelicias {
+    width: 94vw; } }
 
 @media only screen and (max-width: 766px) {
   body {
@@ -225,18 +229,28 @@ body {
     height: 3rem; }
   .seccUno {
     margin: 2vw;
-    height: 29rem; }
+    height: 32rem; }
   .txt1 {
     width: 96vw; }
   .img1 {
-    width: 27rem; }
+    width: 24rem; }
   .seccDos {
     margin: 2vw;
-    height: 33rem; }
+    height: 34rem; }
   .map1 {
     width: 96vw; }
   .txt2 {
     width: 96vw;
     margin-left: 1vw; }
   iframe {
-    width: 96vw; } }
+    width: 96vw; }
+  body section {
+    margin: 2vw; }
+    body section .imgDer {
+      margin-right: 19vw;
+      margin-left: 19vw;
+      margin-bottom: 4vw; }
+  .hrDelicias {
+    width: 94vw; }
+  .hrPacks {
+    width: 94vw; } }

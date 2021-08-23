@@ -167,6 +167,9 @@ body {
 .blank {
   height: 8rem; }
 
+.familiaCocinera {
+  width: 400px; }
+
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
   .commentSection {
     display: grid;
@@ -203,6 +206,8 @@ body {
   body section {
     margin: 2vw; }
   .hrDelicias {
+    width: 94vw; }
+  .hrPacks {
     width: 94vw; } }
 
 @media only screen and (max-width: 766px) {
@@ -229,14 +234,12 @@ body {
     height: 3rem; }
   .seccUno {
     margin: 2vw;
-    height: 32rem; }
+    height: 33rem; }
   .txt1 {
     width: 96vw; }
-  .img1 {
-    width: 24rem; }
   .seccDos {
     margin: 2vw;
-    height: 34rem; }
+    height: 36rem; }
   .map1 {
     width: 96vw; }
   .txt2 {
@@ -253,4 +256,6 @@ body {
   .hrDelicias {
     width: 94vw; }
   .hrPacks {
-    width: 94vw; } }
+    width: 94vw; }
+  .familiaCocinera {
+    width: 100vw; } }

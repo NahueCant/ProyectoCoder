@@ -122,6 +122,9 @@ body {
 .hrPacks {
   width: 800px; }
 
+.hrComment {
+  width: 400; }
+
 .seccUno {
   height: 300px; }
 
@@ -205,10 +208,17 @@ body {
     width: 50vw; }
   body section {
     margin: 2vw; }
+  body textarea {
+    width: 45vw; }
   .hrDelicias {
     width: 94vw; }
   .hrPacks {
-    width: 94vw; } }
+    width: 94vw; }
+  .commentPage {
+    margin-left: 1vw;
+    margin-right: 1vw; }
+  .texthere {
+    width: 368; } }
 
 @media only screen and (max-width: 766px) {
   body {
@@ -253,9 +263,21 @@ body {
       margin-right: 19vw;
       margin-left: 19vw;
       margin-bottom: 4vw; }
+  body textarea {
+    width: 97vw; }
   .hrDelicias {
     width: 94vw; }
   .hrPacks {
     width: 94vw; }
   .familiaCocinera {
+    width: 100vw; }
+  .commentPage {
+    flex-direction: column; }
+  .login {
+    padding-left: 1vw;
+    padding-right: 1vw; }
+  .texthere {
+    width: 100vw;
+    margin-top: 3rem; }
+  .hrComment {
     width: 100vw; } }

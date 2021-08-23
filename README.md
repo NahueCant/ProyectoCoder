@@ -1,6 +1,6 @@
 # Proyecto final CoderHouse
 Proyecto final del curso desarrollo web de CoderHouse
-# Herramientas utilizadass
+# Herramientas utilizadas
 -Html
 -Scss/Css
 -Bootstrap

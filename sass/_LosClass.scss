@@ -1,0 +1,142 @@
+.font {
+	font-family: 'Kaushan Script', cursive;
+}
+.h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.h3 {
+	font-size: 22px;
+	font-weight: bold;
+}
+.h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.sub {
+	font-size: 20px;
+}
+.subrayado {
+	text-decoration: underline;
+}
+.negrita {
+	font-weight: bold;
+}
+.margDer {
+	margin-left: 5px;
+}
+.nav-link {
+	text-decoration: none;
+	color: black;
+}
+.cf1 {
+	background-color: $colorFondo2;
+}
+.cf2 {
+	background-color: $colorFondo3;
+}
+.centrado {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.izq {
+	display: block;
+	margin-left: 0px;
+}
+.der {
+	display: block;
+	margin-right: 0px;
+}
+.inline {
+	display: inline;
+}
+.mid {
+	text-align: center;
+}
+.imgDer {
+	float: right;
+	margin: 4px;
+}
+.imgIzq {
+	float: left;
+	margin: 4px;
+}
+.padLeft {
+	padding-left: 2vw;
+}
+.box {
+	width: 27rem;
+	background-color: white;
+	padding: 105px 165px;
+	border: 1px solid black;
+}
+.commentSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.car {
+	width: 670px;
+	height: 500px;
+}
+.noTMargin {
+	margin-top: 0px;
+}
+.hrDelicias {
+	width: 1100px;
+}
+.hrPacks {
+	width: 800px;
+}
+.hrComment {
+	width: 400;
+}
+.seccUno {
+	height: 300px;
+}
+.seccDos {
+	height: 375px;
+}
+.txt1 {
+	width: 1000px;
+}
+.txt2 {
+	width: 1000px;
+	margin-left: 100px;
+}
+.boxtxt {
+	overflow: auto;
+}
+.img1 {
+	float: right;
+}
+.map1 {
+	float: left;
+}
+.commentPage {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.login {
+	background-color: #e6b3b8;
+}
+.texthere {
+	background-color: #e6b3b8;
+	width: 400px;
+}
+.div {
+	font-size: 18px;
+	display: inline-block;
+}
+.noMargin {
+	margin: 0px;
+	padding: 0px;
+}
+.blank {
+	height: 8rem;
+}
+.familiaCocinera {
+	width: 400px;
+}

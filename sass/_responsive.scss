@@ -1,0 +1,106 @@
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+	.commentSection {
+		display: grid;
+		grid-template-areas: 
+        "box1 box2"
+        "box3 box4";
+        grid-template-columns: 21rem 21rem;
+        grid-template-rows: auto auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+	}
+    .b1 {grid-area: box1;}
+    .b2 {grid-area: box2;}
+    .b3 {grid-area: box3;}
+    .b4 {grid-area: box4;}
+    .box {width: 22rem;}
+    .seccUno {margin: 4vw;}
+    .txt1 {width: 42vw;}
+    .img1 {width: 50vw;}
+    .seccDos {margin: 3vw;}
+    .map1 {width: 50vw}
+    .txt2 {width: 42vw;
+    margin-left: 1vw;}
+    iframe {width: 50vw;}
+    body {
+        section {
+            margin: 2vw;
+        }
+        textarea {
+            width: 45vw;
+        }
+    }
+    .hrDelicias {width: 94vw;}
+    .hrPacks {width: 94vw;}
+    .commentPage {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .texthere {width: 368;}
+}
+
+@media only screen and (max-width: 766px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+    .commentSection {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+        padding-left: 4vw;
+        padding-right: 4vw;
+	}
+    .box {
+        width: 92vw;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .car {
+        width: 100%;
+        height: auto;
+    }
+    .blank {height: 3rem;}
+    .seccUno {
+        margin: 2vw;
+        height: 33rem;
+    }
+    .txt1 {width: 96vw;}
+    .seccDos {
+        margin: 2vw;
+        height: 36rem;}
+    .map1 {width: 96vw}
+    .txt2 {
+        width: 96vw;
+        margin-left: 1vw;
+    }
+    iframe {width: 96vw;}
+    body {
+        section {
+            margin: 2vw;
+            .imgDer {
+                margin-right: 19vw;
+                margin-left: 19vw;
+                margin-bottom: 4vw;
+            }
+        }
+        textarea {width: 97vw;}
+    }
+    .hrDelicias {width: 94vw;}
+    .hrPacks {width: 94vw;}
+    .familiaCocinera {width: 100vw;}
+    .commentPage {flex-direction: column;}
+    .login {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .texthere {
+        width: 100vw;
+        margin-top: 3rem;
+    }
+    .hrComment {width: 100vw;}
+}

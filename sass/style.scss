@@ -1,0 +1,53 @@
+@import "Variables";
+body {
+	background-color: $colorFondo1;
+	margin: 0px;
+	nav {
+		ul {
+			li {
+				display: inline;
+				text-decoration: underline;
+				&:hover {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	h1 {
+		font-size: 32px;
+		font-weight: bold;
+	}
+	p {
+		font-size: 18px;
+	}
+	form {
+		width: fit-content;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+		&:hover {
+			color: black;
+		}
+	}
+	section {
+		margin: 5px 100px;
+	}
+	textarea {
+		margin: auto;
+		width: 380px;
+		height: 300px;
+	}
+	footer {
+		margin-bottom: 0px;
+		height: 225px;
+		p {
+			margin: 0px 40px;
+			margin-top: 10px;
+		}
+	}
+	
+}
+
+@import "LosClass";
+@import "responsive";

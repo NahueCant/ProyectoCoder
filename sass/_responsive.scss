@@ -1,4 +1,4 @@
-@media only screen and (min-width: 767px) and (max-width: 1440px) {
+@media only screen and (min-width: 767px) and (max-width: 990px) {
 	.commentSection {
 		display: grid;
 		grid-template-areas: 
@@ -9,6 +9,8 @@
         grid-column-gap: 5px;
         grid-row-gap: 5px;
 	}
+    .car {height: 600px;}
+    .blank {height: 5rem;}
     .b1 {grid-area: box1;}
     .b2 {grid-area: box2;}
     .b3 {grid-area: box3;}
@@ -23,7 +25,7 @@
     .txt2 {
         width: 42vw;
         margin-left: 1vw;
-}
+    }
     iframe {width: 50vw;}
     body {
         section {

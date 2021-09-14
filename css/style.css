@@ -188,7 +188,7 @@ body {
 .familiaCocinera {
   width: 400px; }
 
-@media only screen and (min-width: 767px) and (max-width: 1440px) {
+@media only screen and (min-width: 767px) and (max-width: 990px) {
   .commentSection {
     display: grid;
     grid-template-areas: "box1 box2" "box3 box4";
@@ -196,6 +196,10 @@ body {
     grid-template-rows: auto auto;
     grid-column-gap: 5px;
     grid-row-gap: 5px; }
+  .car {
+    height: 600px; }
+  .blank {
+    height: 5rem; }
   .b1 {
     grid-area: box1; }
   .b2 {

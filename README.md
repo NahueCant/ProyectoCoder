@@ -5,8 +5,7 @@ Proyecto final del curso desarrollo web de CoderHouse
 -Scss/Css                  
 -Bootstrap
 # Responsive
--Tablet: 768px                      
+-Tablet: 768px-990px                      
 -Movil: 320px-425px                       
-De igual manera estuve mirando todas las medidas posibles y adecue la pagina para la mayoria
 # Autor
 Nahuel Cantarino

@@ -38,6 +38,9 @@ body {
 		width: 380px;
 		height: 300px;
 	}
+	input {
+		padding: 0.3rem;
+	}
 	footer {
 		margin-bottom: 0px;
 		height: 225px;
@@ -48,6 +51,7 @@ body {
 	}
 	
 }
+
 
 @import "LosClass";
 @import "responsive";

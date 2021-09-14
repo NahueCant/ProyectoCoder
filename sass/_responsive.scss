@@ -1,4 +1,4 @@
-@media only screen and (min-width: 767px) and (max-width: 1200px) {
+@media only screen and (min-width: 767px) and (max-width: 1440px) {
 	.commentSection {
 		display: grid;
 		grid-template-areas: 
@@ -15,19 +15,22 @@
     .b4 {grid-area: box4;}
     .box {width: 22rem;}
     .seccUno {margin: 4vw;}
-    .txt1 {width: 42vw;}
-    .img1 {width: 50vw;}
+    .txt1 {
+        width: 39vw;
+    }
     .seccDos {margin: 3vw;}
     .map1 {width: 50vw}
-    .txt2 {width: 42vw;
-    margin-left: 1vw;}
+    .txt2 {
+        width: 42vw;
+        margin-left: 1vw;
+}
     iframe {width: 50vw;}
     body {
         section {
             margin: 2vw;
         }
         textarea {
-            width: 45vw;
+            width: 21.5rem;
         }
     }
     .hrDelicias {width: 94vw;}
@@ -80,6 +83,14 @@
     }
     iframe {width: 96vw;}
     body {
+        nav {
+            a {
+                font-size: 1.2rem;
+            }
+        }
+        h1 {
+            font-size: 1.5rem;
+        }
         section {
             margin: 2vw;
             .imgDer {
@@ -88,6 +99,7 @@
                 margin-bottom: 4vw;
             }
         }
+        p {font-size: 1rem;}
         textarea {width: 97vw;}
     }
     .hrDelicias {width: 94vw;}
@@ -103,4 +115,8 @@
         margin-top: 3rem;
     }
     .hrComment {width: 100vw;}
+    .h2 {font-size: 1.4rem;}
+    .h3 {font-size: 1.2rem;}
+    .h4 {font-size: 1.1rem;}
+
 }

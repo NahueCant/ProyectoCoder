@@ -35,6 +35,10 @@
 	text-decoration: none;
 	color: black;
 }
+.nav-link:hover {
+	text-decoration: none;
+	color: black;
+}
 .cf1 {
 	background-color: $colorFondo2;
 }
@@ -73,7 +77,7 @@
 }
 .box {
 	width: 27rem;
-	background-color: white;
+	background-color: #f7e2e3;
 	padding: 105px 165px;
 	border: 1px solid black;
 }
@@ -106,13 +110,16 @@
 }
 .txt1 {
 	width: 1000px;
+	padding: 1rem;
 }
 .txt2 {
 	width: 1000px;
 	margin-left: 100px;
+	padding: 1rem;
 }
 .boxtxt {
 	overflow: auto;
+	padding: 0.7rem;
 }
 .img1 {
 	float: right;

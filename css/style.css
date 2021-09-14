@@ -24,6 +24,8 @@ body {
     margin: auto;
     width: 380px;
     height: 300px; }
+  body input {
+    padding: 0.3rem; }
   body footer {
     margin-bottom: 0px;
     height: 225px; }
@@ -68,6 +70,10 @@ body {
   text-decoration: none;
   color: black; }
 
+.nav-link:hover {
+  text-decoration: none;
+  color: black; }
+
 .cf1 {
   background-color: #e6b3b8; }
 
@@ -106,7 +112,7 @@ body {
 
 .box {
   width: 27rem;
-  background-color: white;
+  background-color: #f7e2e3;
   padding: 105px 165px;
   border: 1px solid black; }
 
@@ -138,14 +144,17 @@ body {
   height: 375px; }
 
 .txt1 {
-  width: 1000px; }
+  width: 1000px;
+  padding: 1rem; }
 
 .txt2 {
   width: 1000px;
-  margin-left: 100px; }
+  margin-left: 100px;
+  padding: 1rem; }
 
 .boxtxt {
-  overflow: auto; }
+  overflow: auto;
+  padding: 0.7rem; }
 
 .img1 {
   float: right; }
@@ -179,7 +188,7 @@ body {
 .familiaCocinera {
   width: 400px; }
 
-@media only screen and (min-width: 767px) and (max-width: 1200px) {
+@media only screen and (min-width: 767px) and (max-width: 1440px) {
   .commentSection {
     display: grid;
     grid-template-areas: "box1 box2" "box3 box4";
@@ -200,9 +209,7 @@ body {
   .seccUno {
     margin: 4vw; }
   .txt1 {
-    width: 42vw; }
-  .img1 {
-    width: 50vw; }
+    width: 39vw; }
   .seccDos {
     margin: 3vw; }
   .map1 {
@@ -215,7 +222,7 @@ body {
   body section {
     margin: 2vw; }
   body textarea {
-    width: 45vw; }
+    width: 21.5rem; }
   .hrDelicias {
     width: 94vw; }
   .hrPacks {
@@ -263,12 +270,18 @@ body {
     margin-left: 1vw; }
   iframe {
     width: 96vw; }
+  body nav a {
+    font-size: 1.2rem; }
+  body h1 {
+    font-size: 1.5rem; }
   body section {
     margin: 2vw; }
     body section .imgDer {
       margin-right: 19vw;
       margin-left: 19vw;
       margin-bottom: 4vw; }
+  body p {
+    font-size: 1rem; }
   body textarea {
     width: 97vw; }
   .hrDelicias {
@@ -286,4 +299,10 @@ body {
     width: 100vw;
     margin-top: 3rem; }
   .hrComment {
-    width: 100vw; } }
+    width: 100vw; }
+  .h2 {
+    font-size: 1.4rem; }
+  .h3 {
+    font-size: 1.2rem; }
+  .h4 {
+    font-size: 1.1rem; } }
